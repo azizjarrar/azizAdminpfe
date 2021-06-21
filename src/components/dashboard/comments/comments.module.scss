@@ -1,0 +1,26 @@
+.container{
+    position: relative;
+    height: 100%;
+    width: calc(100vw - 300px);
+}
+.header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+.searchComment{
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    input{
+        width: 100%;
+        padding: 15px;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        border:1px solid rgb(233, 233, 233)
+    }
+}

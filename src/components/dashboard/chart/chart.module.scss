@@ -1,0 +1,22 @@
+.container{
+    position: relative;
+    height: 100%;
+    width: calc(100vw - 300px);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.chartContainer{
+    position: relative;
+    height: 80%;
+    width: 80%;
+    z-index: 1561656;
+}
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

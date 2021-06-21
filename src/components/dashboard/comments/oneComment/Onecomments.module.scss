@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+.container{
+    position: relative;
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin:  10px 10px;
+    border-radius: 5px;
+    background-color: white;
+    word-break: break-all;
+}
+.userName{
+    h3{
+        font-size: 1.5rem;
+        font-family: 'Source Sans Pro', sans-serif;
+
+    }
+}
+.comment{
+    width: 100%;
+    p{
+        font-size: 1.2rem;
+        font-family: 'Source Sans Pro', sans-serif;
+
+    }
+}
+.delete{
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    font-size: 2rem;
+
+}
+.deletecss{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    position: absolute;
+    z-index: 15656156;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    right: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    h4{
+        font-size: 1rem;
+        margin: 0;
+        transition: 0.5s;
+        &:hover{
+            color: #1976d4;
+        }
+    }
+
+}
